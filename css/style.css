@@ -1,0 +1,71 @@
+/*font-family start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap')
+
+/*font-family end*/
+
+/*common css start*/
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 100px;
+}
+/*common css end*/
+
+/*header start*/
+
+header {
+
+    background-color: black;
+    border: 5px solid rgb(209, 19, 19);
+    color: white;
+}
+.logo_img{}
+.logo_img img {
+    border-radius: 100px;
+}
+.tittle_h1{}
+.tittle_p{}
+.togg_btn {
+    background-color: green;
+}
+.menu{}
+.menu ul li{}
+.menu ul li a{
+    color: white;
+}
+.menu ul li a:hover{
+    color: red;
+}
+
+/*header end*/
+
+/*slider start*/
+.slider {
+    padding: 220px 0 100px;
+    background-color: aquamarine;
+}
+.tittle {
+    padding: 0px 0 60px;
+}
+.member{}
+.slid_img {
+   
+
+}
+.img{
+    padding: 15px;
+   
+}
+.b_h1 {
+    background-color: #043d0e;
+    border-radius: 50px 0 50px 0;
+    color: white;
+}
+.warraper{}
+.slid_img:hover {
+    box-shadow: 0px 10px 10px -4px rgb(52 42 42);
+    border-radius: 18px;
+    background-color: #d1ebf0b3;
+}
+/*slider end*/
